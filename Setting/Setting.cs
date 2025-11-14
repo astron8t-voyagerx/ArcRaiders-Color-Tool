@@ -1,9 +1,12 @@
 ﻿using System.IO;
 using Newtonsoft.Json;
+using System;
+using System.Reflection;
 
-namespace tarkov_settings.Setting
+namespace ArcRaiders_Color_Tool.Setting
 {
-    internal class Settings<T> where T : new()
+    // https://stackoverflow.com/a/40866863/4579446
+    public abstract class Settings<T> where T : Settings<T>, new()
     {
         private const string DEFAULT_FILENAME = "settings.json";
 

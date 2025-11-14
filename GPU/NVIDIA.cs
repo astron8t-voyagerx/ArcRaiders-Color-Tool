@@ -8,7 +8,7 @@ using System.Windows.Forms;
 using NvAPIWrapper.Native;
 using NvAPIWrapper.Native.Display.Structures;
 
-namespace tarkov_settings.GPU
+namespace ArcRaiders_Color_Tool.GPU
 {
     class NVIDIA : IGPU
     {

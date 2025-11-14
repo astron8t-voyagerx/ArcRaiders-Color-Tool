@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace tarkov_settings.Setting
+namespace ArcRaiders_Color_Tool.Setting
 {
     class AppSetting : Settings<AppSetting>
     {
@@ -13,7 +13,7 @@ namespace tarkov_settings.Setting
         public double gamma = 1.0;
         public int saturation = 0;
         public HashSet<string> pTargets = new HashSet<string>{
-            "EscapeFromTarkov"
+            "PioneerGame"
         };
         public string display = @"\\.\DISPLAY1";
         public bool minimizeOnStart = false;

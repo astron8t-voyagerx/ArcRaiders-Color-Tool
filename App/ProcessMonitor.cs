@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
-namespace tarkov_settings
+namespace ArcRaiders_Color_Tool
 {
     static class NativeMethods
     {

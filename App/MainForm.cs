@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Net.Http;
 using System.Windows.Forms;
-using tarkov_settings.Setting;
-using tarkov_settings.GPU;
+using ArcRaiders_Color_Tool.Setting;
+using ArcRaiders_Color_Tool.GPU;
 
-namespace tarkov_settings
+namespace ArcRaiders_Color_Tool
 {
     public partial class MainForm : Form
     {
@@ -31,7 +31,7 @@ namespace tarkov_settings
             #endregion
             
             var version = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
-            this.Text = String.Format("Tarkov Settings {0}", version);
+            this.Text = String.Format("ArcRaiders Color Tool {0}", version);
             _ = new UpdateNotifier(version);
 
             // Saturation Initialize
@@ -106,7 +106,7 @@ namespace tarkov_settings
                 this.ShowInTaskbar = false;
                 this.trayIcon.ShowBalloonTip(
                     2500,
-                    "Tarkov Settings Initailized!",
+                    "ArcRaiders Color Tool Initailized!",
                     "Check out tray to modify your color setting",
                     ToolTipIcon.Info
                     );

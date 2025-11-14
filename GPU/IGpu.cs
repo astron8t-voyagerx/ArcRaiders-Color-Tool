@@ -1,4 +1,4 @@
-﻿namespace tarkov_settings.GPU
+﻿namespace ArcRaiders_Color_Tool.GPU
 {
     internal interface IGPU
     {

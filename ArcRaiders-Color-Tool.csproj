@@ -7,8 +7,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{EC81E8D2-F151-43C1-A853-BAF353EBE2FF}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>tarkov_settings</RootNamespace>
-    <AssemblyName>tarkov-settings</AssemblyName>
+    <RootNamespace>ArcRaiders_Color_Tool</RootNamespace>
+    <AssemblyName>ArcRaiders-Color-Tool</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
@@ -39,7 +39,7 @@
     <StartupObject />
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>T.ico</ApplicationIcon>
+    <ApplicationIcon>A.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>false</SignManifests>
@@ -262,9 +262,6 @@
     </Compile>
     <Compile Include="Setting\AppSetting.cs" />
     <Compile Include="Setting\Setting.cs" />
-    <Compile Include="Setting\Resolution.cs" />
-    <Compile Include="Setting\TarkovSetting.cs" />
-    <Compile Include="Setting\GameSetting.cs" />
     <EmbeddedResource Include="App\MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -291,9 +288,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\nikita.png" />
-    <None Include="Resources\nikita_rainbow.png" />
-    <Content Include="T.ico" />
+    <Content Include="A.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="packages\Fody.6.5.5\build\Fody.targets" Condition="Exists('packages\Fody.6.5.5\build\Fody.targets')" />

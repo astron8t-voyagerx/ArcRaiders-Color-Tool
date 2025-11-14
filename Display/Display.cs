@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
 
-using tarkov_settings.GPU;
+using ArcRaiders_Color_Tool.GPU;
 
-namespace tarkov_settings
+namespace ArcRaiders_Color_Tool
 {
     [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Ansi)]
     public struct RAMP

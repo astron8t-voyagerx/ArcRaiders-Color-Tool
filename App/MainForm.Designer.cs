@@ -1,4 +1,4 @@
-﻿namespace tarkov_settings
+﻿namespace ArcRaiders_Color_Tool
 {
     partial class MainForm
     {
@@ -30,10 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            this.layoutTablePanel = new System.Windows.Forms.TableLayoutPanel();
-            this.SideMenu = new System.Windows.Forms.ToolStrip();
-            this.MiscsButton = new System.Windows.Forms.ToolStripButton();
-            this.ColorButton = new System.Windows.Forms.ToolStripButton();
             this.ColorPanel = new System.Windows.Forms.Panel();
             this.minimizeStartCheckBox = new System.Windows.Forms.CheckBox();
             this.DisplayCombo = new System.Windows.Forms.ComboBox();
@@ -65,8 +61,6 @@
             this.contrastToolTip = new System.Windows.Forms.ToolTip(this.components);
             this.gammaToolTip = new System.Windows.Forms.ToolTip(this.components);
             this.dvlToolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.layoutTablePanel.SuspendLayout();
-            this.SideMenu.SuspendLayout();
             this.ColorPanel.SuspendLayout();
             this.DVLGroupBox.SuspendLayout();
             this.DVLPanel.SuspendLayout();
@@ -82,76 +76,6 @@
             this.trayMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
-            // layoutTablePanel
-            // 
-            this.layoutTablePanel.ColumnCount = 2;
-            this.layoutTablePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.37594F));
-            this.layoutTablePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 89.62406F));
-            this.layoutTablePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.layoutTablePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.layoutTablePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.layoutTablePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.layoutTablePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.layoutTablePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.layoutTablePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.layoutTablePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.layoutTablePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.layoutTablePanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.layoutTablePanel.Controls.Add(this.SideMenu, 0, 0);
-            this.layoutTablePanel.Controls.Add(this.ColorPanel, 1, 0);
-            this.layoutTablePanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutTablePanel.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.layoutTablePanel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.layoutTablePanel.Location = new System.Drawing.Point(0, 0);
-            this.layoutTablePanel.Name = "layoutTablePanel";
-            this.layoutTablePanel.RowCount = 1;
-            this.layoutTablePanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 18.4669F));
-            this.layoutTablePanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 81.5331F));
-            this.layoutTablePanel.Size = new System.Drawing.Size(734, 372);
-            this.layoutTablePanel.TabIndex = 0;
-            // 
-            // SideMenu
-            // 
-            this.SideMenu.AutoSize = false;
-            this.SideMenu.BackColor = System.Drawing.Color.AliceBlue;
-            this.SideMenu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.SideMenu.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
-            this.SideMenu.ImageScalingSize = new System.Drawing.Size(48, 48);
-            this.SideMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.MiscsButton,
-            this.ColorButton});
-            this.SideMenu.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow;
-            this.SideMenu.Location = new System.Drawing.Point(0, 5);
-            this.SideMenu.Margin = new System.Windows.Forms.Padding(0, 5, 0, 5);
-            this.SideMenu.Name = "SideMenu";
-            this.SideMenu.Size = new System.Drawing.Size(76, 362);
-            this.SideMenu.TabIndex = 1;
-            this.SideMenu.Text = "colorSettings";
-            // 
-            // MiscsButton
-            // 
-            this.MiscsButton.Enabled = false;
-            this.MiscsButton.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MiscsButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.MiscsButton.Image = global::tarkov_settings.Properties.Resources.nikita;
-            this.MiscsButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.MiscsButton.Name = "MiscsButton";
-            this.MiscsButton.Size = new System.Drawing.Size(73, 74);
-            this.MiscsButton.Text = "Miscs";
-            this.MiscsButton.TextDirection = System.Windows.Forms.ToolStripTextDirection.Horizontal;
-            this.MiscsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
-            // ColorButton
-            // 
-            this.ColorButton.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ColorButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ColorButton.Image = global::tarkov_settings.Properties.Resources.nikita_rainbow;
-            this.ColorButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.ColorButton.Name = "ColorButton";
-            this.ColorButton.Size = new System.Drawing.Size(73, 74);
-            this.ColorButton.Text = "Color";
-            this.ColorButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            // 
             // ColorPanel
             // 
             this.ColorPanel.Controls.Add(this.minimizeStartCheckBox);
@@ -159,9 +83,9 @@
             this.ColorPanel.Controls.Add(this.DVLGroupBox);
             this.ColorPanel.Controls.Add(this.colorGroupBox);
             this.ColorPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ColorPanel.Location = new System.Drawing.Point(79, 3);
+            this.ColorPanel.Location = new System.Drawing.Point(0, 0);
             this.ColorPanel.Name = "ColorPanel";
-            this.ColorPanel.Size = new System.Drawing.Size(652, 366);
+            this.ColorPanel.Size = new System.Drawing.Size(660, 372);
             this.ColorPanel.TabIndex = 2;
             // 
             // minimizeStartCheckBox
@@ -182,7 +106,7 @@
             this.DisplayCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.DisplayCombo.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.DisplayCombo.FormattingEnabled = true;
-            this.DisplayCombo.Location = new System.Drawing.Point(502, 328);
+            this.DisplayCombo.Location = new System.Drawing.Point(508, 328);
             this.DisplayCombo.Name = "DisplayCombo";
             this.DisplayCombo.Size = new System.Drawing.Size(139, 30);
             this.DisplayCombo.TabIndex = 15;
@@ -191,7 +115,7 @@
             // DVLGroupBox
             // 
             this.DVLGroupBox.Controls.Add(this.DVLPanel);
-            this.DVLGroupBox.Location = new System.Drawing.Point(499, 9);
+            this.DVLGroupBox.Location = new System.Drawing.Point(505, 9);
             this.DVLGroupBox.Name = "DVLGroupBox";
             this.DVLGroupBox.Size = new System.Drawing.Size(145, 307);
             this.DVLGroupBox.TabIndex = 13;
@@ -247,7 +171,7 @@
             // colorGroupBox
             // 
             this.colorGroupBox.Controls.Add(this.colorTablePanel);
-            this.colorGroupBox.Location = new System.Drawing.Point(3, 9);
+            this.colorGroupBox.Location = new System.Drawing.Point(9, 9);
             this.colorGroupBox.Name = "colorGroupBox";
             this.colorGroupBox.Size = new System.Drawing.Size(490, 307);
             this.colorGroupBox.TabIndex = 12;
@@ -330,7 +254,7 @@
             // 
             // ContrastBar
             // 
-            this.ContrastBar.Location = new System.Drawing.Point(13, 39);
+            this.ContrastBar.Location = new System.Drawing.Point(13, 27);
             this.ContrastBar.Maximum = 100;
             this.ContrastBar.Minimum = -100;
             this.ContrastBar.Name = "ContrastBar";
@@ -342,7 +266,7 @@
             // 
             // ContrastText
             // 
-            this.ContrastText.Location = new System.Drawing.Point(424, 39);
+            this.ContrastText.Location = new System.Drawing.Point(424, 27);
             this.ContrastText.Name = "ContrastText";
             this.ContrastText.ReadOnly = true;
             this.ContrastText.Size = new System.Drawing.Size(41, 29);
@@ -355,7 +279,7 @@
             this.ContrastLabel.AutoSize = true;
             this.ContrastLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ContrastLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ContrastLabel.Location = new System.Drawing.Point(20, 22);
+            this.ContrastLabel.Location = new System.Drawing.Point(20, 10);
             this.ContrastLabel.Name = "ContrastLabel";
             this.ContrastLabel.Size = new System.Drawing.Size(90, 22);
             this.ContrastLabel.TabIndex = 22;
@@ -376,7 +300,7 @@
             // 
             // GammaText
             // 
-            this.GammaText.Location = new System.Drawing.Point(424, 40);
+            this.GammaText.Location = new System.Drawing.Point(424, 27);
             this.GammaText.Name = "GammaText";
             this.GammaText.ReadOnly = true;
             this.GammaText.Size = new System.Drawing.Size(41, 29);
@@ -386,7 +310,7 @@
             // 
             // GammaBar
             // 
-            this.GammaBar.Location = new System.Drawing.Point(13, 40);
+            this.GammaBar.Location = new System.Drawing.Point(13, 27);
             this.GammaBar.Maximum = 280;
             this.GammaBar.Minimum = 40;
             this.GammaBar.Name = "GammaBar";
@@ -401,7 +325,7 @@
             this.GammaLabel.AutoSize = true;
             this.GammaLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.GammaLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.GammaLabel.Location = new System.Drawing.Point(20, 23);
+            this.GammaLabel.Location = new System.Drawing.Point(20, 10);
             this.GammaLabel.Name = "GammaLabel";
             this.GammaLabel.Size = new System.Drawing.Size(60, 22);
             this.GammaLabel.TabIndex = 23;
@@ -413,7 +337,7 @@
             // 
             this.trayIcon.ContextMenuStrip = this.trayMenuStrip;
             this.trayIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("trayIcon.Icon")));
-            this.trayIcon.Text = "Tarkov Settings";
+            this.trayIcon.Text = "ArcRaiders Color Tool";
             this.trayIcon.Visible = true;
             this.trayIcon.DoubleClick += new System.EventHandler(this.ShowForm);
             // 
@@ -482,18 +406,15 @@
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(734, 372);
-            this.Controls.Add(this.layoutTablePanel);
+            this.ClientSize = new System.Drawing.Size(660, 372);
+            this.Controls.Add(this.ColorPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MainForm";
-            this.Text = "Tarkov Settings";
+            this.Text = "ArcRaiders Color Tool";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainForm_FormClosing);
             this.Load += new System.EventHandler(this.MainForm_Load);
-            this.layoutTablePanel.ResumeLayout(false);
-            this.SideMenu.ResumeLayout(false);
-            this.SideMenu.PerformLayout();
             this.ColorPanel.ResumeLayout(false);
             this.ColorPanel.PerformLayout();
             this.DVLGroupBox.ResumeLayout(false);
@@ -517,14 +438,9 @@
         }
 
         #endregion
-        private System.Windows.Forms.TableLayoutPanel layoutTablePanel;
-        private System.Windows.Forms.ToolStrip SideMenu;
-        private System.Windows.Forms.ToolStripButton MiscsButton;
-        private System.Windows.Forms.ToolStripButton ColorButton;
         private System.Windows.Forms.Panel ColorPanel;
         
         
-
         private System.Windows.Forms.GroupBox colorGroupBox;
         private System.Windows.Forms.TextBox DVLText;
         private System.Windows.Forms.Label DVLLabel;

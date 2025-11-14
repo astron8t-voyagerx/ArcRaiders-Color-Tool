@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace tarkov_settings.GPU
+namespace ArcRaiders_Color_Tool.GPU
 {
     class AMD : IGPU
     {

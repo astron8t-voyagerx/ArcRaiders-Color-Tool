@@ -1,7 +1,8 @@
-﻿
-namespace tarkov_settings
+﻿using System.Windows.Forms;
+
+namespace ArcRaiders_Color_Tool
 {
-    partial class UpdateNotifier
+    public partial class UpdateNotifier : Form
     {
         /// <summary>
         /// Required designer variable.

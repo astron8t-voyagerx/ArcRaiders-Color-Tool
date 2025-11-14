@@ -3,9 +3,9 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 
-using tarkov_settings.GPU;
+using ArcRaiders_Color_Tool.GPU;
 
-namespace tarkov_settings
+namespace ArcRaiders_Color_Tool
 {
     class ColorController
     {
