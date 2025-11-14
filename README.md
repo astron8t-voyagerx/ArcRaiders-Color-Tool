@@ -43,20 +43,6 @@ You can change any of the following color settings:
 5. Only works in **Borderless mode.**
 6. Nvidia Optimus Environment (mostly laptops) is not tested.
 
-## TODO / Feature
-- [x] Process Focusing Awareness
-- [x] Digital Vibrance Value Change
-- [x] Gamma Value Change
-- [x] Brightness, Contrast, Gamma Value modify
-- [x] GUI
-- [x] ini or json configuration
-- [x] Process Changeability
-- [x] change display(monitor) target
-- [x] Minimize to tray
-- [ ] Profiles
-- [ ] Hot Keys
-- [ ] Game-specific setting modify (Framelimit or Graphic Settings)
-
 ## Credits / Original Project
 This project is a fork of [tarkov-settings](https://github.com/incheon-kim/tarkov-settings) created by [incheon-kim](https://github.com/incheon-kim).
 A huge thanks to the original author for creating this useful tool.
